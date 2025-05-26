@@ -1,0 +1,13 @@
+Column,Missing_Count,Missing_Percentage,Present_Count,Data_Type
+ID,0,0.0,800,int64
+Name,1,0.125,799,object
+Type 1,0,0.0,800,object
+Type 2,386,48.25,414,object
+HP,0,0.0,800,int64
+Attack,0,0.0,800,int64
+Defense,0,0.0,800,int64
+Sp. Atk,0,0.0,800,int64
+Sp. Def,0,0.0,800,int64
+Speed,0,0.0,800,int64
+Generation,0,0.0,800,int64
+Legendary,0,0.0,800,bool

@@ -1,0 +1,5 @@
+column,total_count,non_null_count,null_count,null_percentage,unique_count,mode_value,mode_count,mode_percentage
+Type 1,800,800,0,0.0,18,Water,112,14.000000000000002
+Type 2,800,414,386,48.25,18,Flying,97,23.42995169082126
+Generation,800,800,0,0.0,6,1,166,20.75
+Legendary,800,800,0,0.0,2,False,735,91.875

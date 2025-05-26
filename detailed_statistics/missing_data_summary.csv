@@ -1,0 +1,3 @@
+dataset,total_cells,missing_cells,missing_percentage,complete_rows,incomplete_rows,columns_with_missing
+Pokemon,9600,387,4.03125,414,386,2
+Combats,150000,0,0.0,50000,0,0

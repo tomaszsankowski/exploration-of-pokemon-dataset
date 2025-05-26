@@ -389,9 +389,15 @@ def analyze_winner_vs_loser_characteristics():
                            width, label='Regular Pokemon', color='#3498db', alpha=0.8)
 
     axes[2, 0].set_title(
+<<<<<<< Updated upstream
         'Legendary Pokemon Rate: Winners vs Losers', fontsize=14, fontweight='bold')
     axes[2, 0].set_xlabel('Group')
     axes[2, 0].set_ylabel('Percentage (%)')    axes[2, 0].set_xticks(x_pos)
+=======
+        'Legendary Status: Winners vs Losers', fontsize=14, fontweight='bold')
+    axes[2, 0].set_ylabel('Percentage (%)')
+    axes[2, 0].set_xticks(x_pos)
+>>>>>>> Stashed changes
     axes[2, 0].set_xticklabels(legendary_comp_df['group'])
     axes[2, 0].legend()
     axes[2, 0].grid(True, alpha=0.3)

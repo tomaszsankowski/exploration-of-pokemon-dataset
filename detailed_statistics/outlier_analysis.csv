@@ -1,0 +1,7 @@
+column,iqr_outliers_count,iqr_outliers_pct,zscore_outliers_count,zscore_outliers_pct,modified_zscore_outliers_count,modified_zscore_outliers_pct,lower_bound_iqr,upper_bound_iqr
+HP,19,2.375,10,1.25,11,1.375,5.0,125.0
+Attack,7,0.8750000000000001,5,0.625,5,0.625,-12.5,167.5
+Defense,13,1.625,10,1.25,9,1.125,-10.0,150.0
+Sp. Atk,10,1.25,5,0.625,8,1.0,-18.125,162.875
+Sp. Def,7,0.8750000000000001,4,0.5,2,0.25,-10.0,150.0
+Speed,2,0.25,2,0.25,1,0.125,-22.5,157.5

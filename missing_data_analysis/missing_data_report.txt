@@ -1,0 +1,95 @@
+
+MISSING DATA ANALYSIS REPORT
+============================================================
+
+EXECUTIVE SUMMARY:
+====================
+This report provides a comprehensive analysis of missing data patterns 
+in the Pokemon and Combats datasets.
+
+POKEMON DATASET ANALYSIS:
+==============================
+
+Dataset Overview:
+- Total rows: 800
+- Total columns: 12
+- Total cells: 9,600
+
+Missing Data Summary:
+- Missing cells: 387
+- Missing percentage: 4.0312%
+- Complete rows: 414
+- Incomplete rows: 386
+- Columns with missing data: 2
+
+Column-wise Missing Data:
+- Name: 1 missing (0.12%)
+- Type 2: 386 missing (48.25%)
+
+TYPE 2 DETAILED ANALYSIS:
+=========================
+
+Total Pokemon: 800
+Pokemon with Type 2: 414 (51.7%)
+Pokemon without Type 2: 386 (48.2%)
+
+Missing Type 2 by Generation:
+- Generation 1: 88/166 missing (53.0%)
+- Generation 2: 51/106 missing (48.1%)
+- Generation 3: 78/160 missing (48.8%)
+- Generation 4: 54/121 missing (44.6%)
+- Generation 5: 83/165 missing (50.3%)
+- Generation 6: 32/82 missing (39.0%)
+
+Missing Type 2 by Legendary Status:
+- Regular: 361/735 missing (49.1%)
+- Legendary: 25/65 missing (38.5%)
+
+
+COMBATS DATASET ANALYSIS:
+=========================
+
+Dataset Overview:
+- Total rows: 50,000
+- Total columns: 3
+- Total cells: 150,000
+
+Missing Data Summary:
+- Missing cells: 0
+- Missing percentage: 0.0000%
+- Complete rows: 50,000
+- Data quality: Excellent - No missing data
+
+RECOMMENDATIONS:
+===============
+
+1. Data Preprocessing:
+   - Type 2 missing values should be treated as "None" or "Single-type"
+   - Consider creating a binary indicator for dual-type Pokemon
+   - No issues found in combats dataset
+
+2. Analysis Implications:
+   - Missing Type 2 data is systematic (single-type Pokemon)
+   - This is not random missing data but represents a real category
+   - Include missing Type 2 as a valid category in analysis
+
+3. Data Quality Assessment:
+   - Pokemon dataset: High quality with expected missing pattern
+   - Combats dataset: Complete dataset with no missing values
+   - Overall data integrity: Excellent
+
+TECHNICAL NOTES:
+===============
+
+Missing Data Mechanism:
+- Type 2 missingness is "Missing Completely At Random" (MCAR) for single-type Pokemon
+- This represents a legitimate data structure, not a data quality issue
+- No imputation recommended - treat as categorical "None" value
+
+Data Validation:
+- All Pokemon IDs in combats dataset exist in Pokemon dataset
+- No duplicate records found
+- Data types are appropriate for analysis
+
+Generated: 2025-05-25 14:15:43.301473
+Analysis completed successfully.

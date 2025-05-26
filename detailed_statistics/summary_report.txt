@@ -1,0 +1,78 @@
+
+POKEMON DATASET ANALYSIS - SUMMARY REPORT
+============================================================
+
+DATASET OVERVIEW:
+Pokemon Dataset:
+- Shape: 800 rows × 12 columns
+- Memory Usage: 176,459 bytes
+- Numeric Columns: 8
+- Categorical Columns: 4
+- Missing Values: 387
+- Duplicate Rows: 0
+
+Combats Dataset:
+- Shape: 50000 rows × 3 columns
+- Memory Usage: 1,200,132 bytes
+- Numeric Columns: 3
+- Categorical Columns: 0
+- Missing Values: 0
+- Duplicate Rows: 1952
+
+DATA QUALITY ASSESSMENT:
+==============================
+
+Pokemon Dataset Quality:
+- Completeness: 95.97%
+- Missing Data: Only in 'Type 2' column (386 missing values)
+- Data Types: Appropriate for analysis
+- Duplicates: None
+
+Combats Dataset Quality:
+- Completeness: 100.00%
+- Missing Data: None
+- Data Types: Appropriate for analysis
+- Duplicates: 1952 found
+
+KEY FINDINGS:
+===============
+
+1. Pokemon Statistics:
+   - Average HP: 69.3
+   - Highest Attack: 190
+   - Most Defensive: 230
+   - Fastest Speed: 180
+
+2. Type Distribution:
+   - Most Common Type 1: Water
+   - Pokemon with dual types: 414
+   - Single-type Pokemon: 386
+
+3. Generation Analysis:
+   - Generations: 1 to 6
+   - Legendary Pokemon: 65
+
+4. Combat Analysis:
+   - Total Battles: 50,000
+   - Unique Pokemon in Battles: 784
+   - First Pokemon Win Rate: 47.2%
+
+RECOMMENDATIONS:
+===============
+
+1. Data Preprocessing:
+   - Handle Type 2 missing values (consider as "None" type)
+   - No duplicate removal needed
+   - Data types are appropriate
+
+2. Further Analysis:
+   - Investigate stat correlations for battle predictions
+   - Analyze type effectiveness in combat
+   - Study legendary Pokemon performance
+
+3. Visualization Priorities:
+   - Distribution plots for all numeric stats
+   - Type combination heatmaps
+   - Combat win rate analysis by Pokemon characteristics
+
+Generated: 2025-05-25 14:14:56.710187

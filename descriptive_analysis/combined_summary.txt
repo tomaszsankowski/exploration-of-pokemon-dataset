@@ -1,0 +1,7 @@
+Pokemon Dataset Shape: (800, 12)
+Combats Dataset Shape: (50000, 3)
+Combined Dataset Shape: (50000, 27)
+Total Unique Pokemon: 800
+Pokemon in Battles: 784
+Legendary in Battles: 8188
+Legendary Wins: 6377
