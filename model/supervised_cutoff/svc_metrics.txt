@@ -1,0 +1,4 @@
+Accuracy: 0.9246
+F1: 0.9246
+Sensitivity: 0.9259
+Specificity: 0.9232

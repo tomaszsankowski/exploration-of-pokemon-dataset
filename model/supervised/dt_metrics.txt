@@ -1,0 +1,2 @@
+Decision Tree Accuracy: 0.9404
+Decision Tree F1: 0.9404

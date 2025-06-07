@@ -1,0 +1,5 @@
+Depth: 4
+Accuracy: 0.9425
+F1: 0.9425
+Recall: 0.9426
+Precision: 0.9475

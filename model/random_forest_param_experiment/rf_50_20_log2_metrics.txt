@@ -1,0 +1,7 @@
+n_estimators=50, max_depth=20, max_features=log2
+Accuracy: 0.9508
+F1: 0.9508
+Recall: 0.9445
+Specificity: 0.9577
+Train_time: 2.4361
+Predict_time: 0.0839

@@ -1,0 +1,2 @@
+Accuracy (n_estimators=200, max_depth=20): 0.9506
+F1: 0.9506
